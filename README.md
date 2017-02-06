@@ -1,3 +1,5 @@
 # anacvignola.github.io
-My website: https://anacvignola.github.io/, I created this repository as I am learning, I will update, and share my knowledge. 
-At the moment I have only used HTML and CSS, but I intend to update it constantly with new technologies such as JavaScript, AngularJS, among others, to make it a responsive site, and we can use it in any device. 
+
+My website: https://anacvignola.github.io/, I created this repository to share my knowledge, and learn more and more. At the moment I've only used HTML and CSS, but I plan to constantly update it with new technologies, to make it a responsive site.
+
+I recently started using Bootstrap, but I'm still exploring this tool.
