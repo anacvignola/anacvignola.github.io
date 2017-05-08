@@ -1,0 +1,126 @@
+@font-face{
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/assets/fonts/Yellowtail-Regular.ttf);
+}
+@font-face{
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/assets/fonts/AmaticSC-Regular.ttf);
+}
+*{
+    margin: 0; 
+    padding: 0; 
+    font-size: 100%;  
+}
+header{
+    color: black;
+    margin-top: 5%;
+}
+h1{
+    font-family: 'Yellowtail', cursive!important;
+    
+}
+h3{
+    font-family: 'Amatic SC', cursive!important;
+}
+body{
+    background: url('/assets/img/background.jpg')no-repeat center top fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+.container-fluid{
+    margin-top: 3%;
+    font-size: 2.5em;
+}
+.container-fluid i{
+    padding: 18px;
+    text-decoration: none;
+}
+.container-fluid i:hover{
+    color: azure;
+}
+i{
+    color: black;
+}
+footer{
+    margin-top: 4%;
+    font-size: 1.1em;
+    color: black;
+    font-family: 'Amatic SC', cursive;
+}
+
+@media screen and (min-width: 480px){
+header{
+       margin-top: 5.5em; 
+    }
+h1{
+    font-size: 4.0em!important;
+}
+h3{
+    font-size: 2.5em!important;
+}
+.container-fluid{
+    margin-top: 3%;
+    font-size: 3.5em;
+}
+.container-fluid i{
+    padding: 20px;
+}
+footer{
+    margin-top: 3%;
+    font-size: 1.2em;
+}
+}
+
+@media screen and (min-width: 640px){
+header{
+       margin-top: 6.0em; 
+    }
+h1{
+    font-size: 5.0em!important;
+}
+h3{
+    font-size: 3.0em!important;
+}
+.container-fluid{
+    font-size: 4.5em;
+}
+}
+
+@media screen and (min-width: 768px){
+header{
+       margin-top: 5.0em; 
+    }
+h1{
+    font-size: 6.0em!important;
+}
+h3{
+    font-size: 3.5em!important;
+}
+.container-fluid{
+    font-size: 4.5em;
+}
+.container-fluid i{
+    padding: 20px;
+}
+footer{
+    margin-top: 1%;
+    font-size: 1.5em;
+}
+}
+
+@media screen and (min-width: 1024px){
+footer{
+    margin-top: 8.9%;
+}
+}
+
+@media screen and (min-width: 1366px){
+footer{
+    margin-top: 8.4%;
+}
+}
