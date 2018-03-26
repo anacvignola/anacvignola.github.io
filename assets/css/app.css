@@ -33,6 +33,9 @@ body{
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+    max-width: 100%; 
+    height: auto; 
+    display:block;
 }
 .container-fluid{
     height: 100px;
