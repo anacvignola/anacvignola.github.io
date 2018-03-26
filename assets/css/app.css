@@ -28,10 +28,11 @@ h3{
     font-family: 'Amatic SC', cursive!important;
 }
 body{
-    background: url('/assets/img/background.jpg')no-repeat center top fixed;
-    background-repeat: no-repeat;
+    background: url('/assets/img/background.jpg')no-repeat fixed;
     background-size: cover;
     width: auto;
+    max-width:100%;
+    height:auto;
 }
 .container-fluid{
     height: 100px;
