@@ -34,11 +34,9 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100px;
     width: 100%;
 }
 .container-fluid{
-    height: 100px;
     width: 100%;
     position: absolute;
     text-align:center;
