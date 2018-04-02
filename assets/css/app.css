@@ -33,10 +33,10 @@ body{
     background-repeat:  no-repeat;
     background-attachment: fixed;
     background-size:  cover!important;
-    width: auto;
+    width:100%;
 }
 .container-fluid{
-    width: auto;
+    width: 100%;
     position: absolute;
     text-align:center;
     font-size: 2.5em;
@@ -61,7 +61,7 @@ footer{
     font-family: 'Amatic SC', cursive;
     position: absolute;
     bottom: 0;
-    width:auto;
+    width:100%;
 }
 
 @media screen and (min-width: 480px){
