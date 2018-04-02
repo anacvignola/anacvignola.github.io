@@ -16,6 +16,7 @@
     font-size: 100%;  
 }
 header{
+    width: 100%;
     color: black;
     margin-top: 5%;
     text-align:center;
@@ -33,17 +34,18 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100px;
+    width: 100%;
 }
 .container-fluid{
     height: 100px;
     width: 100%;
     position: absolute;
     text-align:center;
-    margin-top: 3%;
     font-size: 2.5em;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    left: 40%;
+    top: 40%;
+    transform: translate(-40%, -40%);
 }
 .container-fluid i{
     padding: 18px;
