@@ -29,10 +29,12 @@ h3{
 }
 body{
     background-image: url('/assets/img/background.jpg');
-    background-position: center, center;
+    background-position: center center;
     background-repeat:  no-repeat;
     background-attachment: fixed;
-    background-size:  100%, 100%;
+    background-size:  cover;
+    height: auto;
+    width: auto;
 }
 .container-fluid{
     width: 100%;
