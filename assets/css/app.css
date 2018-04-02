@@ -29,12 +29,9 @@ h3{
     font-family: 'Amatic SC', cursive!important;
 }
 body{
-    background: url('/assets/img/background.jpg')no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url('/assets/img/background.jpg')no-repeat center fixed;
     background-size: cover;
-    width: 100%;
+    width: auto;
 }
 .container-fluid{
     width: 100%;
