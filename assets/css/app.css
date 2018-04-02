@@ -33,7 +33,7 @@ body{
     background-repeat:  no-repeat;
     background-attachment: fixed;
     background-size:  cover!important;
-    height: auto;
+    height: auto!important;
 }
 .container-fluid{
     width: 100%;
