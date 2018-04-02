@@ -34,7 +34,6 @@ body{
     background-attachment: fixed;
     background-size:  cover!important;
     height: auto;
-    width: auto;
 }
 .container-fluid{
     width: 100%;
