@@ -57,18 +57,14 @@ i{
 }
 footer{
     text-align: center;
-    width: 100%;
     font-size: 1.1em;
     color: black;
     font-family: 'Amatic SC', cursive;
     position: absolute;
-	bottom: 0;
+    bottom: 0;
 }
 
 @media screen and (min-width: 480px){
-header{
-       margin-top: 5.5em; 
-    }
 h1{
     font-size: 4.0em!important;
 }
@@ -78,17 +74,11 @@ h3{
 .container-fluid{
     font-size: 3.5em;
 }
-.container-fluid i{
-    padding: 20px;
-}
 footer{
     font-size: 1.2em;
 }
 }
 @media screen and (min-width: 640px){
-header{
-       margin-top: 6.0em; 
-    }
 h1{
     font-size: 5.0em!important;
 }
@@ -101,9 +91,6 @@ h3{
 }
 
 @media screen and (min-width: 768px){
-header{
-       margin-top: 5.0em; 
-    }
 h1{
     font-size: 6.0em!important;
 }
