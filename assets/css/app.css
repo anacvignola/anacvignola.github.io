@@ -29,7 +29,7 @@ h3{
 }
 body{
     background-image: url('/assets/img/background.jpg');
-    background-position: center, 100%;
+    background-position: 100%, center;
     background-repeat:  no-repeat;
     background-attachment: fixed;
     background-size:  cover;
