@@ -28,16 +28,15 @@ h3{
     font-family: 'Amatic SC', cursive!important;
 }
 body{
-    background-image: url('/assets/img/background.jpg');
+    background: url('/assets/img/background.jpg');
     background-position: center center;
     background-repeat:  no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size:  contain;
+    background-size:  cover;
     max-width: 100%;
-    button: 0;
 }
 .container-fluid{
     width: 100%;
