@@ -37,6 +37,7 @@ body{
     -o-background-size: cover;
     background-size:  cover;
     max-width: 100%;
+    button: 0;
 }
 .container-fluid{
     width: 100%;
