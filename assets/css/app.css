@@ -31,7 +31,7 @@ h3{
 }
 body{
     background: url('/assets/img/background.jpg');
-    background-position: center center;
+    background-position: top center;
     background-repeat:  no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -39,6 +39,15 @@ body{
     -o-background-size: cover;
     background-size:  cover;
     max-width: 100%;
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto; 
+    overflow: hidden;
 }
 .container-fluid{
     width: 100%;
