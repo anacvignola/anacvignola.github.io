@@ -31,7 +31,7 @@ h3{
 }
 body{
     background: url('/assets/img/background.jpg');
-    background-position: top center;
+    background-position: center center;
     background-repeat:  no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -50,13 +50,13 @@ body{
     overflow: hidden;
 }
 .container-fluid{
-    width:100%;!important;
-    position: absolute;!important;
-    text-align:center;!important;
+    width:100%;
+    position: absolute;
+    text-align:center;
     font-size: 2.5em;
-    left: 50%;!important;
-    top: 50%;!important;
-    transform: translate(-50%, -50%);!important;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 .container-fluid i{
     padding: 18px;
@@ -69,13 +69,13 @@ i{
     color: black;
 }
 footer{
-    text-align: center;!important;
+    text-align: center;
     font-size: 1.1em;
     color: black;
     font-family: 'Amatic SC', cursive;
-    position: absolute;!important;
-    bottom: 0;!important;
-    width:100%;!important;
+    position: absolute;
+    bottom: 0;
+    width:100%;
 }
 
 @media screen and (min-width: 480px){
