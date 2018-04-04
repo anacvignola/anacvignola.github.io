@@ -39,10 +39,10 @@ body{
     -o-background-size: cover;
     background-size:  cover;
     max-width: 100%;
-    position: relative;
     width: auto;
     height: auto;
     overflow: hidden;
+    display: block;
 }
 .container-fluid{
     width:100%;
