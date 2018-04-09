@@ -10,6 +10,9 @@
     font-weight: normal;
     src: url(/assets/fonts/AmaticSC-Regular.ttf);
 }
+html{
+    height: 100%;
+}
 *{
     width: auto;
     height: auto;
@@ -39,8 +42,7 @@ body{
     -o-background-size: cover;
     background-size:  cover;
     max-width: 100%;
-    width: auto;
-    height: auto;
+    height: 100%;
     overflow: hidden;
     display: block;
 }
