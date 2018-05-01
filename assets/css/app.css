@@ -51,9 +51,9 @@ body{
     position: absolute;
     text-align:center;
     font-size: 2.5em;
-    left: 55%;
-    top: 55%;
-    transform: translate(-55%, -55%);
+    left: 60%;
+    top: 60%;
+    transform: translate(-60%, -60%);
 }
 .container-fluid i{
     padding: 18px;
