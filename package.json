@@ -1,0 +1,24 @@
+{
+  "name": "anacvignola.github.io",
+  "version": "1.0.0",
+  "description": "This page is being used to create one page per day for 100 days to practice html, css and javascript.",
+  "main": "index.js",
+  "dependencies": {
+    "@dracula/dracula-ui": "^0.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anacvignola/anacvignola.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anacvignola/anacvignola.github.io/issues"
+  },
+  "homepage": "https://github.com/anacvignola/anacvignola.github.io#readme"
+}

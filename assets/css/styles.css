@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto, Helvetia, san-serif";
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+header {
+  margin: 40px;
+}
+
+.header-main {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-main {
+  padding: 0 80px;
+}
+
+footer {
+  margin: 20px 0;
+  text-align: center;
+}
+
+a {
+  margin: 0 10px;
+  color: #8aff80;
+}
