@@ -50,15 +50,23 @@ header {
 
 .social-media {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: nowrap;
   align-items: center;
   font-size: 24px;
 }
 
-a {
+.social-media a {
   margin: 0 10px;
+}
+
+a {
   color: #eaf08d;
+  text-decoration: none;
+}
+
+li a {
+  margin: 0 5px;
 }
 
 a:hover {
