@@ -7,7 +7,7 @@
 body {
   color: rgb(168, 168, 179);
   background: rgb(18, 18, 20);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
 }

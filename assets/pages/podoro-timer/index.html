@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="content">
+      <h1 class="title">Pomodoro Timer ⏱</h1>
+
+      <div class="main">
+        <div class="clock">
+          <div class="mins">0</div>
+          <div>:</div>
+          <div class="secs">00</div>
+          <audio src=""></audio>
+          <svg class="progress-ring" height="240" width="240">
+            <circle
+              class="progress-ring-circle"
+              stroke-width="10"
+              fill="transparent"
+              r="100"
+              cx="120"
+              cy="120"
+            />
+          </svg>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn-start">START FOCUS</button>
+          <button class="btn-reset">RESET</button>
+          <button class="btn-pause">PAUSE</button>
+        </div>
+
+        <form action=".">
+          <input type="number" value="1" />
+          <input type="number" value="1" />
+          <button type="submit">SAVE SETTINGS</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        Developed by
+        <a href="https://github.com/anacvignola" target="_blank">anacvignola</a>
+      </p>
+    </footer>
+
+    <script src="settings.js"></script>
+    <script src="timer.js"></script>
+    <script src="progress.js"></script>
+  </body>
+</html>
