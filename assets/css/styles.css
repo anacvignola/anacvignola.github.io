@@ -5,7 +5,9 @@
 }
 
 body {
-  font-family: "Roboto, Helvetia, san-serif";
+  color: rgb(168, 168, 179);
+  background: rgb(18, 18, 20);
+  font-family: "Roboto";
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
 }
@@ -27,6 +29,46 @@ header {
   align-items: center;
 }
 
+.avatar {
+  background-image: url(https://avatars.githubusercontent.com/u/18388591?v=4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #bd93f9;
+  margin-bottom: 20px;
+}
+
+.social-perfil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-size: 24px;
+}
+
+a {
+  margin: 0 10px;
+  color: #eaf08d;
+}
+
+a:hover {
+  color: #50fa7b;
+}
+
+.title {
+  color: #bd93f9;
+}
+
 .list-main {
   padding: 0 80px;
 }
@@ -34,8 +76,4 @@ header {
 footer {
   margin: 20px 0;
   text-align: center;
-}
-
-a {
-  margin: 0 10px;
 }
