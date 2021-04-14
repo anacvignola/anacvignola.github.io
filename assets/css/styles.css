@@ -18,10 +18,6 @@ body {
   padding: 0 30px;
 }
 
-header {
-  margin: 40px;
-}
-
 .header-main {
   margin: 40px 0;
   display: flex;
@@ -38,6 +34,23 @@ header {
   border-radius: 50%;
   border: 2px solid #bd93f9;
   margin-bottom: 20px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 40px;
+}
+
+.resume {
+  margin-top: 10px;
+  max-width: 520px;
+}
+
+h4 {
+  color: #bd93f9;
+  margin-bottom: 10px;
 }
 
 .social-perfil {
@@ -79,6 +92,9 @@ a:hover {
 
 .list-main {
   padding: 0 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {

@@ -16,10 +16,10 @@
           <div class="mins">0</div>
           <div>:</div>
           <div class="secs">00</div>
-          <audio src=""></audio>
+          <audio src="http://soundbible.com/mp3/service-bell_daniel_simion.mp3"></audio>
           <svg class="progress-ring" height="240" width="240">
             <circle
-              class="progress-ring-circle"
+              class="progress-ring__circle"
               stroke-width="10"
               fill="transparent"
               r="100"
@@ -30,14 +30,16 @@
         </div>
 
         <div class="btn-group">
-          <button class="btn-start">START FOCUS</button>
-          <button class="btn-reset">RESET</button>
-          <button class="btn-pause">PAUSE</button>
+          <button class="start">START FOCUS</button>
+          <button class="reset">RESET</button>
+          <button class="pause">PAUSE</button>
         </div>
 
         <form action=".">
-          <input type="number" value="1" />
-          <input type="number" value="1" />
+          <label for="focusTime">Focus Time</label>
+          <input type="number" value="25" id="focusTime" />
+          <label for="breakTime">Break Time</label>
+          <input type="number" value="5" id="breakTime" />
           <button type="submit">SAVE SETTINGS</button>
         </form>
       </div>

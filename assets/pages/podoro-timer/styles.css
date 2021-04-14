@@ -44,7 +44,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.progress-ring-circle {
+.progress-ring__circle {
   transition: 0.5s;
   transform: rotate(-90deg);
   transform-origin: 50% 50%;
