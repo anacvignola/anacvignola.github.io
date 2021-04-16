@@ -11,11 +11,21 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    rel="stylesheet"
+  />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="content">
-      <h1 class="title">Pomodoro Timer ⏱</h1>
+      <div class="header">
+        <a class="btn-back" href="https://anacvignola.github.io/">
+          <i class="fas fa-chevron-left"></i>
+          <p>back</p>
+        </a>
+        <h1 class="title">Pomodoro Timer ⏱</h1>
+      </div>
 
       <div class="main">
         <div class="clock">
@@ -41,11 +51,11 @@
           <button class="pause">PAUSE</button>
         </div>
 
-        <form action=".">
-          <label for="focusTime">Focus Time</label>
-          <input type="number" value="25" id="focusTime" />
-          <label for="breakTime">Break Time</label>
-          <input type="number" value="5" id="breakTime" />
+        <form>
+          <label for="focusTime">Focus Time:</label>
+          <input type="number" min="1" value="25" id="focusTime" name="focusTime" />
+          <label for="breakTime">Break Time:</label>
+          <input type="number" min="1" value="5" id="breakTime" name="breakTime "/>
           <button type="submit">SAVE SETTINGS</button>
         </form>
       </div>
